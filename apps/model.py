@@ -2,7 +2,7 @@ import streamlit as st
 def app():
     name = st.text_input('Enter Athlete Name', '')
     if name == "Maddie":
-        st.markdown('Predicted companies: A, B, C')
+        st.markdown('Predicted companies: A, B, C, D')
     st.markdown("""---""")
     features = st.subheader('Filter by Athlete Characteristics')
     values = st.slider(
